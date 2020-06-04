@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class SemDesconto implements Desconto{
+    @Override
+    public double desconta(Orcamento orcamento) {
+        return 0;
+    }
 
-public class SemDesconto {
+    @Override
+    public void setProximo(Desconto proximo) {
+
+    }
 }

@@ -1,8 +1,8 @@
-public class DescontoPorMaisDeQuinhentosItens implements Desconto{
+public class DescontoPorMaisDeQuinhentosReais implements Desconto{
     private Desconto proximo;
 
     public double desconta(Orcamento orcamento){
-        if(orcamento.getItens().size() > 500){
+        if(orcamento.getValor() > 500){
             return orcamento.getValor() * 0.07;
         }else{
             return proximo.desconta(orcamento);
