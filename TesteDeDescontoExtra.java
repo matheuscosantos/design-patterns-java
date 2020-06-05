@@ -9,6 +9,5 @@ public class TesteDeDescontoExtra {
         reforma.aplicaDescontoExtra();
         System.out.println(reforma.getValor());
         reforma.finaliza();
-        reforma.aplicaDescontoExtra();
     }
 }
